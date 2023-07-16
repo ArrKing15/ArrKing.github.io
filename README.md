@@ -1,2 +1,136 @@
-# ArrKing.github.io
-Acordeones ArrKing
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARRKING MÉXICO</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: flex-start;
+    }
+    
+    h1 {
+      text-align: center;
+      width: 100%;
+    }
+    
+    .logo {
+      margin: 1px;
+      margin-right: 40px;
+    }
+    
+    .logo img {
+      width: 250px;
+      height: auto;
+    }
+    .info img {
+      width: 160px;
+      height: auto;
+    }
+    
+    .product-container {
+      width: 100%;
+    }
+    
+    .product {
+      display: flex;
+      justify-content: left;
+      margin-bottom: 10px;
+    }
+    
+    .product img {
+      width: 200px;
+      height: auto;
+      margin-right: 15px;
+    }
+    
+    .product-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .product-name {
+      font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+    
+    .product-price {
+      font-size: 16px;
+      color: green;
+      margin-bottom: 10px;
+    }
+    
+    .product-description {
+      font-size: 18px;
+    }
+
+    @media screen and (max-width: 750px) {
+      body {
+        flex-direction: column;
+      }
+      
+      .product {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .product img {
+        width: 100%;
+        margin-bottom: 25px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="LOGGO.png" alt="Logo">
+    <h4>Ing. Jesús Arriaga</h5>
+    <h5>📧 jesam1501@gmail.com</h5>
+    <h5>📞 +52 6121368478</h5>
+    <h5>📦Envio $250 </h5>
+  </div>
+
+  <div class="product-container">
+    <div class="product">
+      <img src="a.jpg" alt="Producto 1">
+      <div class="product-info">
+        <h2 class="product-name">Normal Tono De Fa</h2>
+        <p class="product-price"><strong>$5,900</strong></p>
+        <p class="product-description">Acordeon 34 Botones Normal.</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="b.jpg" alt="Producto 2">
+      <div class="product-info">
+        <h2 class="product-name">Retro Iluminado</h2>
+        <p class="product-price"><strong>$7,500</strong></p>
+        <p class="product-description">Acordeon Con 34 Botones Retroiluminado</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="c.jpg" alt="Producto 3">
+      <div class="product-info">
+        <h2 class="product-name">Sencillo y Economico</h2>
+        <p class="product-price"><strong>$2,500</strong></p>
+        <p class="product-description">Solamente Teclado De Acordeon</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="info" align="right">
+    <a href="https://facebook.com"><img src="facebook.png" alt="info"></a>
+    <a href="https://instagram.com"><img src="instagram.png" alt="info">
+    <a href="https://youtube.com"><img src="youtube.png" alt="info">
+  </div>
+
+</body>
+</html>
