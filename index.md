@@ -127,9 +127,9 @@
   </div>
 
   <div class="info" align="right">
-    <a href="https://facebook.com"><img src="facebook.png" alt="info"></a>
-    <a href="https://instagram.com"><img src="instagram.png" alt="info">
-    <a href="https://youtube.com"><img src="youtube.png" alt="info">
+    <a href="https://facebook.com"><img src="facebook.PNG" alt="info"></a>
+    <a href="https://instagram.com"><img src="instagram.PNG" alt="info">
+    <a href="https://youtube.com"><img src="youtube.PNG" alt="info">
   </div>
 
 </body>
